@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field & Yards Realty</title>
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Scroll reveal CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar container">
+            <nav class="nav container">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">WHAT WE DO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">PROPERTIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- HEADER ENDS -->
+
+    <section id="findUs">
+        <h1 class="sectionHeading animateTop">Find Us</h1>
+        <div class="container map animate">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.355686566387!2d75.8245551150452!3d26.923936283122778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db14b1bd30ba5%3A0x860e5d531eccb20c!2sHawa%20Mahal!5e0!3m2!1sen!2sin!4v1657036192191!5m2!1sen!2sin"
+                width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="reachUs">
+        <div class="container">
+            <div class="reachUs-info">
+                <h1 class="sectionHeading">Reach Us</h1>
+                <p class="bodyText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatibus cum nisi
+                    dolore culpa dolores quisquam beatae aliquam eius nobis, velit, repellat porro? Voluptatem,
+                    aspernatur quod esse quo placeat quia maxime, explicabo aut minus dicta cupiditate doloremque omnis
+                    vel veniam eveniet doloribus perspiciatis non exercitationem consequuntur fugiat molestias. Iusto,
+                    possimus!</p>
+                <ul class="reachUs-list">
+                    <li><i class="fa-solid fa-envelope"></i>
+                        <p class="bodyText">hello@feetandyardsrealty.com</p>
+                    </li>
+                    <li><i class="fa-solid fa-phone"></i>
+                        <p class="bodyText">+91 9309381288</p>
+                    </li>
+                    <li><i class="fa-solid fa-globe"></i>
+                        <p class="bodyText">www.feetandyardsrealty.com</p>
+                    </li>
+                    <li><i class="fa-solid fa-location"></i>
+                        <div class="address">
+                            <p class="bodyText">G1 Mahima Iris 2 Swage Farm, <br> New Sananer Road, Vivek Vihar, Jaipur
+                                - 302019 (Metro Station).</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="reachUs-form">
+                <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                    <div class=".container">
+                        <div class="form-group">
+                            <label class="label" for="name">Full Name: </label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" for="email">Email Address</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="label" for="subject">Phone Number</label>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" for="subject">PROPERTY TYPE:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="label" for="#">Message</label>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="4"
+                                placeholder="Message"></textarea>
+                        </div>
+
+
+                        <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-primary">
+                            <div class="submitting"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#home"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2 class="footerHeading">ADDRESS</h2>
+                    <p class="footerTxt"><em>G1 Mahima Iris 2 Swage Farm, New Sananer Road, Vivek Vihar, Jaipur - 302019
+                            (Metro Station).</em></p>
+
+                    <h2 class="footerHeading">CONTACT</h2>
+                    <p class="footerTxt">8233597599, 9309381288</p>
+                </div>
+                <div class="footer-info">
+                    <h2 class="footerHeading">DISCOVER</h2>
+                    <a href="" class="footerlink">Home</a>
+                    <a href="" class="footerlink">What we DO</a>
+                    <a href="" class="footerlink ">Properties</a>
+                    <a href="" class="footerlink ">About Us</a>
+                    <a href="" class="footerlink ">Contact</a>
+                </div>
+            </div>
+            <h4 class="copyright">© 2022 ALL RIGHTS RESERVED. DESIGNED & DEVELOPED by: <span class="designers">The
+                    Digital Narrators.</span></h4>
+        </div>
+    </footer>
+
+    <!-- trial -->
+
+
+    <!--       -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop()) {
+                $(".nav").addClass("white");
+            }
+            else {
+                $(".nav").removeClass("white");
+            }
+        });
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
