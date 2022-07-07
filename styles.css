@@ -126,7 +126,7 @@ nav a img {
     width: 80%;
     height: 100vh;
     background-color: #F1EFE9;
-    padding: 4.4rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     z-index: 1250;
@@ -173,12 +173,18 @@ nav a img {
 }
 
 .nav-item {
-    padding: 2rem;
-    margin: 2rem;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    text-align: center;
 }
 
 .nav-item:first-child {
     margin-top: 5rem;
+}
+
+.nav-item:hover {
+    background-color: #ae823b;
+    color: #fff;
 }
 
 
@@ -187,7 +193,7 @@ nav a img {
     color: #ae823b;
     text-transform: uppercase;
     font-family: 'peace-sans';
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: 500;
     letter-spacing: 2px;
     margin-right: -2px;
@@ -195,7 +201,7 @@ nav a img {
 }
 
 nav-link:hover {
-    color: black;
+    color: #fff;
 }
 
 .home {
