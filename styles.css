@@ -69,6 +69,13 @@ p{
     padding: 0 2.4rem;
 }
 
+.mobile-sectionHeading {
+    font-family: 'creme-espana';
+    color: #361500;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
 /* header styles */
 
 header {
@@ -79,9 +86,6 @@ header {
     z-index: 1;
 }
 
-header .container {
-    /* background-color: white; */
-}
 
 nav {
     height: 7rem;
@@ -97,6 +101,7 @@ nav {
 
 nav.white {
     background-color: #F1EFE9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 
@@ -182,10 +187,6 @@ nav a img {
     margin-top: 5rem;
 }
 
-.nav-item:hover {
-    background-color: #ae823b;
-    color: #fff;
-}
 
 
 .nav-link {
@@ -201,6 +202,7 @@ nav a img {
 }
 
 nav-link:hover {
+    background-color: #ae823b;
     color: #fff;
 }
 
@@ -387,7 +389,7 @@ nav-link:hover {
 footer {
     background-color: #645c60;
     color: white;
-    padding: 5rem;
+    padding: 4rem 0;
     text-align: center;
     position: relative;
 }
@@ -412,7 +414,6 @@ footer {
 
 .footer-content {
     overflow: hidden;
-    display: flex;
     margin-bottom: 5rem;
 }
 
@@ -774,12 +775,9 @@ li {
 }
 
 
-.reachUs {
-    padding: 5%;
-}
 
-.map {
-    padding: 0;
+#findUs {
+    padding-top: 10rem;
 }
 
 .reachUs-info {
@@ -795,11 +793,12 @@ li {
 .reachUs-list li i {
     font-size: 3rem;
     line-height: 2;
+    margin: 0 2rem 0 0;
 }
 
-.reachUs-info p {
-    color: #F1EFE9;
-    margin-bottom: 1rem;
+.reachUs-info li{
+    font-size: 1.5rem;
+    line-height: 2;
 }
 
 .reachUs-list li p {
@@ -814,5 +813,150 @@ li {
     bottom: 4.3rem;
     left: 3rem;
     min-width: 70%;
+}
+
+
+/* AboutUs page */
+
+.aboutUsBg {
+    background: url("images/aboutUs-bg.jpeg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.aboutUs-info {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    height: auto;
+    position: relative;
+    top: 15%;
+}
+
+.aboutUsBg .container p {
+    font-size: 1.7rem;
+    margin: -2rem auto 0 auto;
+    color: #000;
+}
+
+.aboutUs-philosophy {
+    text-align: center;
+}
+
+.missionVision {
+    background-color: #F1EFE9;
+}
+.missionVision-info {
+    border: 2px solid black;
+    padding: 2.5rem;
+    margin: 20px 0 20px 0;
+    background-color: #fff;
+}
+
+.missionVision-info h2 {
+    display: inline-block;
+    position: relative;
+    bottom: 2rem;
+    left: 20px;
+    font-size: 3.5rem;
+}
+
+.missionVisionImg {
+    width: 40%;
+    text-align: left;
+}
+
+.missionVision-info p {
+    text-align: center;
+}
+
+.footer {
+    padding: 0;
+}
+
+/* properties page */
+
+.property-type {
+    padding: 6rem 0 0 0;
+}
+
+.property-purchase {
+    padding: 2rem 0 5rem 0;
+    background-color: #F1EFE9;
+}
+
+  #changeImage {
+    position: relative;
+    bottom: 20rem;
+    border: none;
+    appearance: none;
+    background-color: #ae823b;
+    color: white;
+    font-size: 2rem;
+    padding: 1.7rem;
+    width: 70%;
+  }
+
+  .selectImg {
+    height: 250px;
+  }
+  #propertySelectionImg {
+    height: 250px;
+  }
+
+  .sales-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buildingImg {
+    width: 50%;
+  }
+
+  .buildingImg img{
+    height: 230px;
+  }
+
+  .building-info {
+    padding: 2%;
+    font-size: 10px;
+  }
+
+  .enquirebtn {
+    background-color:#ae823b ;
+    color: #fff;
+    padding: 5px;
+    margin: 1.2rem 0;
+    width: auto;
+    text-align: center;
+  }
+
+  .cardSeparator {
+    width: 70%;
+    text-align: center;
+    margin: 5rem auto;
+  }
+
+.property-purchase h1 {
+    text-align: center;
+}
+
+input, textarea, select {
+    border: none;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+.reachUs-form {
+    padding: 3rem;
+}
+
+.submit-btn {
+    padding: 2rem;
+    background-color: #361500;
+    color: wheat;
+    font-size: 2rem;
 }
 
