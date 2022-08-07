@@ -703,16 +703,15 @@ li {
 .aboutUsBg {
   background: url("images/aboutUs-bg.jpeg") center no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 
 .aboutUs-info {
-  padding: 2rem;
+  width: 90%;
+  padding: 1.5rem;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
-  height: auto;
-  position: relative;
-  top: 15%;
+  background-color: #f1efe9;
+  opacity: 0.6;
+  margin: 5rem auto 2rem auto;
 }
 
 .aboutUsBg .container p {
@@ -1049,4 +1048,76 @@ select {
         border: 2px solid #000;
 
     }
+
+    /*                  ***** AboutUs page *****                     */
+
+.missionVision-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7%;
+    }
+
+    .missionVision-info {
+      max-width: 350px;
+      height: 530px;
+    }
+
+    .aboutUs-info {
+      width: 80%;
+      padding: 5%;
+      text-align: center;
+      background-color: #f1efe9;
+      opacity: 0.6;
+      margin: 5rem auto 2rem auto;
+    }
+
+    .aboutUs-philosophy {
+      padding: 10%;
+    }
+
+    .sales-card {
+      padding: 0 10%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sales-card > div {
+      flex: 1;
+    }
+
+    .building-info {
+      padding: 10rem;
+    }
+    .building-info h2 {
+      font-size: 3rem;
+    }
+
+    .building-info h3 {
+      font-size: 2rem;
+    }
+    .buildingImg {
+      text-align: right;
+    }
+
+    .buildingImg img {
+      width: 100%;
+      max-width: 400px;
+      max-height: 500px;
+      height: auto;
+    }
+
+    .building-info li {
+      font-size: 1.5rem;
+      list-style: inside;
+    }
+
+    .enquirebtn {
+      max-width: 350px;
+      max-height: 60px;
+      padding: 5%;
+      margin-bottom: 5%;
+    }
+
   }
+
